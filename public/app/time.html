@@ -1,0 +1,22 @@
+<md-dialog aria-label="Mango (Fruit)"  ng-cloak flex-lg="25" flex="50" flex-sm="100">
+      
+
+    <md-content >
+        <md-card   class="md-whiteframe-z2" >
+            <md-card-content >
+                <h2 >{{SelectedDay.Date | date:'dd-MMM-yyyy'}}</h2>
+                <p layout="column">
+                    <md-button class="md-primary md-raised" 
+                    ng-repeat="i in SelectedDay.AppointmentsTime"
+                    ng-click="showAdvanced(i)"
+                    ng-disabled="!i.active"
+                    flex>
+                        {{i.date | date:'h:mma'}}
+                    </md-button>
+                </p>
+            </md-card-content>
+           
+        </md-card>
+        
+    </md-content>
+  </md-dialog>
