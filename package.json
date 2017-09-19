@@ -14,12 +14,8 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/itswadesh/simple-appointment.git"
+    "url": "git+https://github.com/kar26dec/appointment-system-currentmonth.git"
   },
-  "author": "Swadesh Behera",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/itswadesh/simple-appointment/issues"
-  },
-  "homepage": "https://github.com/itswadesh/simple-appointment#readme"
+  "author": "Karan Panchal",
+  "homepage": "https://github.com/kar26dec/appointment-system-currentmonth#readme"
 }
